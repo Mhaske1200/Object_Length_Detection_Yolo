@@ -3,7 +3,7 @@ from ultralytics import YOLO
 import numpy as np
 
 # Load the YOLOv8 model
-model = YOLO('yolov8x-seg.pt')
+model = YOLO('yolov8n-seg.pt')
 
 # Open the video file
 video_path = 'output_cropped.avi'
