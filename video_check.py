@@ -7,7 +7,8 @@ model = YOLO('yolov8n-seg.pt')
 
 # Open the video file
 video_path = 'output_cropped.avi'
-cap = cv2.VideoCapture(video_path)
+#cap = cv2.VideoCapture(video_path)
+cap = cv2.VideoCapture(0)
 
 # Get video properties
 frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
